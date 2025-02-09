@@ -7,7 +7,7 @@ import {
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center h-14 ">
+    <div className="flex justify-between items-center h-14  ">
       {/* Name */}
       <div>
         <h1 className=" text-[18px]">Juri Turiano</h1>

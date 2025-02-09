@@ -36,9 +36,12 @@ const Projects = () => {
   return (
     <div>
       <h1 className="text-xl font-bold">Projects</h1>
-      <div className="flex flex-col gap-5 items-center my-5">
+      <div className="flex flex-col gap-5 items-center my-5 ">
         {projectData.map((project, index) => (
-          <div key={index} className="p-5 border border-gray-300 rounded-md ">
+          <div
+            key={index}
+            className="p-5 border border-gray-300 rounded-md max-w-[100%] lg:w-[60%]"
+          >
             <div className="flex justify-between mb-2">
               <h1 className="font-bold text-lg">{project.projectName}</h1>
               <div className="flex gap-[3px]">
@@ -56,7 +59,10 @@ const Projects = () => {
             {/* Tools */}
             <div className="flex flex-wrap gap-2 mt-3">
               {project.tools.map((tool, idx) => (
-                <span key={idx} className="bg-gray-200 px-2 py-1 rounded text-xs">
+                <span
+                  key={idx}
+                  className="bg-gray-200 px-2 py-1 rounded text-xs"
+                >
                   {tool.toolsName}
                 </span>
               ))}
