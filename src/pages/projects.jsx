@@ -40,7 +40,7 @@ const Projects = () => {
         {projectData.map((project, index) => (
           <div
             key={index}
-            className="p-5 border border-gray-300 rounded-md max-w-[100%] lg:w-[60%]"
+            className="p-5 border border-gray-300 rounded-md max-w-full lg:w-[60%]"
           >
             <div className="flex justify-between mb-2">
               <h1 className="font-bold text-lg">{project.projectName}</h1>
@@ -61,7 +61,7 @@ const Projects = () => {
               {project.tools.map((tool, idx) => (
                 <span
                   key={idx}
-                  className="bg-gray-200 px-2 py-1 rounded text-xs"
+                  className="bg-gray-200 px-2 py-1 rounded-sm text-xs"
                 >
                   {tool.toolsName}
                 </span>

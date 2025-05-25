@@ -10,7 +10,7 @@ const ResumeButton = () => {
     <div className="mt-4">
       <button
         onClick={handleNavigate}
-        className="bg-portfolio-highlight px-10 py-2 rounded"
+        className="bg-portfolio-highlight px-10 py-2 rounded-sm"
       >
         CV
       </button>

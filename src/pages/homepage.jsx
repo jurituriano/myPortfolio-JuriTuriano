@@ -11,7 +11,7 @@ const HomePage = () => {
       <div className="flex flex-col items-center">
         <h1 className="text-xl lg:text-4xl font-bold">
           Hi I am{" "}
-          <span className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+          <span className="bg-linear-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
             Juri Turiano
           </span>
         </h1>
