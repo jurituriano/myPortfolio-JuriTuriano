@@ -15,7 +15,7 @@ const HomePage = () => {
             Juri Turiano
           </span>
         </h1>
-        <p className="text-base lg:text-2xl">Full stack developer</p>
+        <p className="text-base lg:text-2xl">Frontend developer</p>
         <ResumeButton />
       </div>
     </div>
