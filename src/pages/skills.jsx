@@ -7,9 +7,6 @@ const Skills = () => {
         <span className="bg-gray-200 px-2 py-1 rounded-sm ">CSS</span>
         <span className="bg-gray-200 px-2 py-1 rounded-sm ">Tailwindcss</span>
         <span className="bg-gray-200 px-2 py-1 rounded-sm ">Javascript</span>
-        <span className="bg-gray-200 px-2 py-1 rounded-sm ">Nodejs</span>
-        <span className="bg-gray-200 px-2 py-1 rounded-sm ">Express</span>
-        <span className="bg-gray-200 px-2 py-1 rounded-sm ">MongoDB</span>
         <span className="bg-gray-200 px-2 py-1 rounded-sm ">Reactjs</span>
         <span className="bg-gray-200 px-2 py-1 rounded-sm ">Blender</span>
         <span className="bg-gray-200 px-2 py-1 rounded-sm ">Git</span>
