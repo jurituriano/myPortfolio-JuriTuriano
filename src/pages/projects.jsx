@@ -3,11 +3,17 @@ import { GithubIcon, LiveIcon } from "../components/icons/functionIcons";
 const Projects = () => {
   const projectData = [
     {
-      projectName: "ShoeBox",
+      projectName: "Inventory Native App system",
+      description:
+        "An mobile inventory system application for sari-sari store transaction inputs.",
+      sourceCodepath: "https://github.com/tJuri-sub/posSystem",
+      tools: [{ toolsName: "React Native" }, { toolsName: "SQLite" }],
+    },
+    {
+      projectName: "On Your Feet",
       description:
         "An e-commerce website for footwear such as casual, formal, and athletic shoes.",
-      livePath: "shoebox.infinityfreeapp.com", // Replace with actual link
-      sourceCodepath: "https://github.com/yourusername/shoebox", // Replace with actual link
+      sourceCodepath: "https://github.com/tJuri-sub/shoebox",
       tools: [
         { toolsName: "HTML" },
         { toolsName: "CSS" },
@@ -20,11 +26,11 @@ const Projects = () => {
       ],
     },
     {
-      projectName: "Impression",
+      projectName: "Espression",
       description:
         "A static website about showcasing coffee drinks and rice meals.",
-      livePath: "vast-smoke.surge.sh", // Replace with actual link
-      sourceCodepath: "https://github.com/yourusername/shoebox", // Replace with actual link
+      livePath: "http://vast-smoke.surge.sh/",
+      sourceCodepath: "https://github.com/tJuri-sub/Espression",
       tools: [
         { toolsName: "HTML" },
         { toolsName: " CSS" },
@@ -44,13 +50,15 @@ const Projects = () => {
           >
             <div className="flex justify-between mb-2">
               <h1 className="font-bold text-lg">{project.projectName}</h1>
-              <div className="flex gap-[3px]">
-                <a src={project.sourceCodepath} target="_blank">
+              <div className="flex gap-[5px]">
+                <a href={project.sourceCodepath} target="_blank">
                   <GithubIcon />
                 </a>
-                <a src={project.livePath} target="_blank">
-                  <LiveIcon />
-                </a>
+                {project.livePath && (
+                  <a href={project.livePath} target="_blank">
+                    <LiveIcon />
+                  </a>
+                )}
               </div>
             </div>
             <p className="text-portfolio-secondary text-sm">
