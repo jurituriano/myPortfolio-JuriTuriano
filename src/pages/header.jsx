@@ -7,10 +7,10 @@ import {
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center h-14  ">
+    <div className="flex justify-between items-center h-14 ">
       {/* Name */}
       <div>
-        <h1 className=" text-[18px]">Juri Turiano</h1>
+        <h1 className=" text-[18px]">My Personal Portfolio</h1>
       </div>
 
       {/* Social Media links */}
@@ -24,7 +24,7 @@ const Header = () => {
         <a href="https://github.com/tJuri-sub" target="_blank">
           <GithubIcon />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/jurituriano/" target="_blank">
           <LinkinIcon />
         </a>
       </div>
