@@ -5,8 +5,8 @@ const Skills = () => {
       <div className="flex flex-wrap gap-2 my-3">
         <span className="bg-gray-200 px-2 py-1 rounded-sm ">HTML</span>
         <span className="bg-gray-200 px-2 py-1 rounded-sm ">CSS</span>
-        <span className="bg-gray-200 px-2 py-1 rounded-sm ">Tailwindcss</span>
         <span className="bg-gray-200 px-2 py-1 rounded-sm ">Javascript</span>
+        <span className="bg-gray-200 px-2 py-1 rounded-sm ">Tailwindcss</span>
         <span className="bg-gray-200 px-2 py-1 rounded-sm ">Reactjs</span>
         <span className="bg-gray-200 px-2 py-1 rounded-sm ">Blender</span>
         <span className="bg-gray-200 px-2 py-1 rounded-sm ">Git</span>
