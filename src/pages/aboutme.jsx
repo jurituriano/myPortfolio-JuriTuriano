@@ -1,8 +1,10 @@
 const Aboutme = () => {
   return (
-    <div className="border-y-2 py-5 mb-5  text-center  max-w-full ">
+    <div className="border-y-2 py-5 text-center  max-w-full ">
       <p>
-        I like to create user experience by building user friendly application.
+        I graduated from TIP-QC with a Bachelors degree in Information
+        Technology. I&apos;m leading more towards frontend development or UI/UX
+        designer.
       </p>
     </div>
   );
