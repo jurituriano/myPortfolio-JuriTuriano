@@ -40,7 +40,7 @@ const Projects = () => {
   ];
 
   return (
-    <div>
+    <div className="border-b-2">
       <h1 className="text-xl font-bold">Projects</h1>
       <div className="flex flex-col gap-5 items-center my-5 ">
         {projectData.map((project, index) => (
