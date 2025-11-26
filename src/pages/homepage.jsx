@@ -1,5 +1,3 @@
-import ResumeButton from "../components/cvButton";
-
 const HomePage = () => {
   return (
     <div className="flex flex-col gap-6 lg:flex-row md:flex-row lg:gap-15 md:gap-15 justify-center items-center h-dvh lg:h-[90dvh] md:h-[90dvh]  ">
@@ -20,7 +18,6 @@ const HomePage = () => {
             (BSIT) Frontend Developer
           </p>
         </div>
-        <ResumeButton />
       </div>
     </div>
   );
